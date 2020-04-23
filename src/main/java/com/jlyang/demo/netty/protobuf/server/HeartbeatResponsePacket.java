@@ -1,6 +1,6 @@
-package com.jlyang.demo.netty.server;
+package com.jlyang.demo.netty.protobuf.server;
 
-import com.jlyang.demo.netty.constant.Command;
+import com.jlyang.demo.netty.protobuf.constant.Command;
 
 public class HeartbeatResponsePacket {
 

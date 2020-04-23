@@ -1,4 +1,4 @@
-package com.jlyang.demo.netty.constant;
+package com.jlyang.demo.netty.protobuf.constant;
 
 public interface Command {
     Byte HEARTBEAT_REQUEST = 1;

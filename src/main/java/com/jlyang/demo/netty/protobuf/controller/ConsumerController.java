@@ -1,7 +1,7 @@
-package com.jlyang.demo.netty.controller;
+package com.jlyang.demo.netty.protobuf.controller;
 
-import com.jlyang.demo.netty.client.NettyClient;
-import com.jlyang.demo.netty.proto.MessageBase;
+import com.jlyang.demo.netty.protobuf.client.NettyClient;
+import com.jlyang.demo.netty.protobuf.proto.MessageBase;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

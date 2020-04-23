@@ -1,4 +1,4 @@
-package com.jlyang.demo.netty.server;
+package com.jlyang.demo.netty.protobuf.server;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.timeout.IdleStateEvent;

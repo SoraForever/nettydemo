@@ -1,6 +1,6 @@
-package com.jlyang.demo.netty.client;
+package com.jlyang.demo.netty.protobuf.client;
 
-import com.jlyang.demo.netty.proto.MessageBase;
+import com.jlyang.demo.netty.protobuf.proto.MessageBase;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelInitializer;
 import io.netty.handler.codec.protobuf.ProtobufDecoder;

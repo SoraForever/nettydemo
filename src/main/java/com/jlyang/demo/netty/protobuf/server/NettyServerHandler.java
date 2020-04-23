@@ -1,6 +1,6 @@
-package com.jlyang.demo.netty.server;
+package com.jlyang.demo.netty.protobuf.server;
 
-import com.jlyang.demo.netty.proto.MessageBase;
+import com.jlyang.demo.netty.protobuf.proto.MessageBase;
 import io.netty.channel.ChannelHandler;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
