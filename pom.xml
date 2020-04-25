@@ -14,6 +14,10 @@
         <version>2.2.6.RELEASE</version>
     </parent>
 
+    <properties>
+        <io.protostuff.version>1.7.2</io.protostuff.version>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -31,6 +35,25 @@
             <artifactId>protobuf-java</artifactId>
             <version>3.11.4</version>
         </dependency>
+
+        <dependency>
+            <groupId>io.protostuff</groupId>
+            <artifactId>protostuff-core</artifactId>
+            <version>${io.protostuff.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.protostuff</groupId>
+            <artifactId>protostuff-runtime</artifactId>
+            <version>${io.protostuff.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.68</version>
+        </dependency>
+
 
         <dependency>
             <groupId>org.junit.jupiter</groupId>
